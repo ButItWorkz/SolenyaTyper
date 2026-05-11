@@ -1,5 +1,5 @@
 # SolenyaTyper.ps1 (v3)
-# Bypasses client-side paste restrictions with modifier-combo support.
+# ensure client-side paste with modifier-combo support.
 
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
