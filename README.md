@@ -58,9 +58,17 @@ Focus the restricted input field.
 
 Press and release your configured hotkey.
 
+## Ethical Use & Liability Disclaimer
+
+This utility is provided "as is" strictly for accessibility, workflow optimization, and educational demonstration of native operating system mechanics. It is designed to interact solely with the local system's clipboard and input simulation APIs. It is not intended to be utilized as a malicious keylogger, nor should it be used to bypass legitimate, authorized access controls or authentication mechanisms.
+
+As the end-user, it is your absolute and sole responsibility to ensure that your usage of this tool is strictly ethical, legally compliant, and adheres to your organizational policies. Because this tool simulates raw, rapid-fire keystrokes, you are entirely responsible for the data you choose to process through it and the target applications you inject that data into.
+
+The author assumes no liability and is not responsible for any misuse, damage, data leaks, account lockouts, or legal consequences resulting from the execution, modification, or deployment of this script.
+
 ## Disclaimer & EDR Considerations
 
-For administrative, accessibility, and educational use.
+For authorized, administrative, accessibility, and educational use only.
 Note on Endpoint Detection: Because this script imports user32.dll, polls GetAsyncKeyState, and injects rapid keystrokes asynchronously, its mechanical profile is highly similar to rudimentary keyloggers or local C2 components. Heuristic-based Antivirus or EDR solutions may flag the execution. The script is provided un-obfuscated in native PowerShell specifically so all logic can be audited and verified prior to deployment or usage.
 
 This is an open-source tool designed to showcase the ignorance of security theater and re-enable basic OS features. Enjoy!
@@ -71,4 +79,24 @@ This project was engineered with the assistance of an AI Large Language Model (L
 
 ## Licensing
 
-MIT License. Users are encouraged to fork, modify, and maintain their own digital autonomy.
+MIT License
+
+Copyright (c) 2026 ButItWorkz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
