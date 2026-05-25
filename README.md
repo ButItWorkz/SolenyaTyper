@@ -1,7 +1,7 @@
 ## SolenyaTyper
 
 A lightweight, native powershell utility designed to re-enable the basic OS's copy/paste feature via asynchronous hardware interrupt polling and raw keystroke simulation.
-Built entirely using native .NET classes and Windows APIs, SolenyaTyper is a "Living off the Land" (LoL) tool that requires no third-party installations, compiled executables, or elevated privileges to execute.
+Built entirely using native .NET classes and Windows APIs, SolenyaTyper is a "Living off the Land" (LotL) tool that requires no third-party installations, compiled executables, or elevated privileges to execute.
 
 ## The Problem
 
